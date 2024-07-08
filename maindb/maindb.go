@@ -3,7 +3,7 @@ package maindb
 import (
 	"fmt"
 
-	"cloud.google.com/go/cloudsqlconn/postgres/pgxv4"
+	_ "cloud.google.com/go/cloudsqlconn/postgres/pgxv4"
 )
 
 func Check() {
